@@ -66,6 +66,35 @@ ul li a:hover, a:focus {
   display: inline-block;
 }
 
+.Content__autocomplete, .Content__animalsList{
+  display: block;
+  width: 100%;
+}
+
+.Content__animalsList {
+  margin-top: 0 !important;
+  border: 1px solid #DFE1E5;
+  border-radius: 18px;
+}
+
+.Content__animalsList {
+  text-align: left !important;
+}
+
+.Content__animalsList ul {
+  padding-left: 30px;
+}
+
+.Content__animalsList ul li {
+  display: block;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.Content__animalsList ul li:hover {
+  background: #eee;
+}
+
 footer {
   display: grid;
   grid-template-rows: auto auto;
